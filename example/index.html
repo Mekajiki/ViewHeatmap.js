@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <script type="text/javascript" src="../build/heatmap.js"></script>
+  </head>
+  <body>
+    <canvas id="target"></canvas>
+    <script type="text/javascript">
+      var positionData = [
+          {
+            height: 100,
+            positions: [ 0, 10, 15, 20, 25, 30, 35, 40 ]
+          }
+        ,
+          {
+            height: 100,
+            positions: [ 25, 30, 35, 40, 45, 50, 55, 60 ]
+          }
+        ,
+          {
+            height: 100,
+            positions: [ 225, 230, 235, 240, 245, 250, 255, 260 ]
+          }
+        ];
+      new Heatmap(
+        'target',
+        'https://dl.dropboxusercontent.com/s/ox706z0polxhhiz/wikipedia.png',
+        positionData
+        ,
+        {
+          screenshotAlpha: 0.6,
+          heatmapAlpha: 0.8
+          }
+      );
+    </script>
+  </body>
+</html>

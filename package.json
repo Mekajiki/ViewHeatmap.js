@@ -1,0 +1,14 @@
+{
+  "name": "heatmap",
+  "version": "0.0.0",
+  "description": "2 dimensional heatmap over screenshot",
+  "main": "Gruntfile.js",
+  "author": "Yuichiro NAKAGAWA <ii.hsif.drows@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-coffee": "^0.12.0",
+    "grunt-contrib-watch": "^0.6.1"
+  }
+}
