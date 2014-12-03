@@ -56,7 +56,7 @@ class Heatmap
         value = viewsArray[i] / maxViews
         context.beginPath()
         context.moveTo 0, i
-        context.lineTo 840, i
+        context.lineTo @width, i
         context.lineWidth = 1
         context.strokeStyle = @calculateColor value
         context.stroke()
