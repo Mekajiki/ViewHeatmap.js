@@ -1,14 +1,16 @@
 {
   "name": "heatmap",
-  "version": "0.0.0",
-  "description": "2 dimensional heatmap over screenshot",
+  "version": "0.0.1",
+  "description": "Library for 2 dimensional heatmap indicating scroll view",
   "main": "Gruntfile.js",
   "author": "Yuichiro NAKAGAWA <ii.hsif.drows@gmail.com>",
+  "repository": "https://github.com/Mekajiki/ViewHeatmap.js",
   "license": "MIT",
-  "devDependencies": {},
+  "devDependencies": {
+    "grunt-contrib-watch": "^0.6.1"
+  },
   "dependencies": {
     "grunt": "^0.4.5",
-    "grunt-contrib-coffee": "^0.12.0",
-    "grunt-contrib-watch": "^0.6.1"
+    "grunt-contrib-coffee": "^0.12.0"
   }
 }
